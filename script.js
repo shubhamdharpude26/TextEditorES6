@@ -1,8 +1,3 @@
-//DONE: Convert all functions and any other possible elements to ES6
-
-/**
- * Update the output text as you type in the textarea
- */
 updateText = () => {
   let text = document.getElementById("text-input").value;
   document.getElementById('text-output').innerText = text;
